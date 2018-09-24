@@ -2,7 +2,6 @@
 
 LIBGIT2_VERSION="0.27.4"
 
-cd $HOME
 wget https://github.com/libgit2/libgit2/archive/v${LIBGIT2_VERSION}.tar.gz
 tar -xf v${LIBGIT2_VERSION}.tar.gz
 mv libgit2{-${LIBGIT2_VERSION},}
