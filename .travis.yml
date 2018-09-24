@@ -64,8 +64,8 @@ before_install:
   - mysql -e 'create database olympia;'
   - export GOPATH=$HOME/go
   - export PATH=$HOME/usr/local/go/bin:$GOPATH/bin:$PATH
-  - export LIBGIT2=$HOME/libgit2/_install/
-  - export LD_LIBRARY_PATH=$HOME/libgit2/_install/lib
+  - export LIBGIT2=./libgit2/_install/
+  - export LD_LIBRARY_PATH=./libgit2/_install/lib
 
 install:
   - nvm current
